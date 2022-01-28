@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HeaderRoutingModule } from './header-routing.module';
 import { HeaderComponent } from './header/header.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     CommonModule,
-    HeaderRoutingModule
+    HeaderRoutingModule,
+    MatToolbarModule
   ]
 })
 export class HeaderModule { }
